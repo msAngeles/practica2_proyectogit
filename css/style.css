@@ -1,3 +1,47 @@
-body{
-    background-color: blue;
+body {
+    background-color: dimgray;
+    font-family: "Arial Narrow";
+    font-size: 14px;
+    width: 100%;
+    min-width: 50%;
+    max-width: 100%;
+}
+
+section {
+    width: 80%;
+    min-width: 50%;
+    height: 240px;
+    border: 3px solid white;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: crimson;
+    box-shadow: 14px 12px 5px black;
+    border-radius: 4px;
+}
+
+section form {
+    background-color: crimson;
+    width: 80%;
+    min-width: 30%;
+    height: 250px;
+    border: 10px solid yellow;
+    margin: 0 auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    white-space: pre-line;
+    box-shadow: 4px 3px 3px white;
+}
+
+#v_user_css {
+    display: inline-block;
+    
+}
+
+#v_pass_css {
+    display: inline-block;
+    color:
 }
