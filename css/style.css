@@ -10,10 +10,10 @@ body {
 section {
     width: 80%;
     min-width: 50%;
-    height: 240px;
+    height: 340px;
     border: 3px solid white;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 10%;
     background-color: crimson;
     box-shadow: 14px 12px 5px black;
@@ -24,9 +24,10 @@ section form {
     background-color: crimson;
     width: 80%;
     min-width: 30%;
-    height: 250px;
+    height: 270px;
     border: 10px solid yellow;
     margin: 0 auto;
+    margin-top: 1%;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -38,10 +39,39 @@ section form {
 
 #v_user_css {
     display: inline-block;
-    
+    width: 95%;
+    height: 30px;
+    font-size: 1.5em;
+    margin-left: 1.5%;
+    text-align: center;
+    background-image: url('../img/usuario.png');
+    background-repeat: no-repeat;
 }
 
 #v_pass_css {
-    display: inline-block;
-    color:
+    width: 95%;
+    height: 30px;
+    font-size: 1.5em;
+    margin-left: 1.5%;
+    text-align: center;
+    background-image: url('../img/usuario.png');
+    background-repeat: no-repeat;
+
+}
+#btne{
+    width: 98%;
+    font-size: 18px;
+    margin-left: 1%;
+    border: 2px solid black;
+    box-shadow: 8px 4px 8px solid black;
+    background-color: steelblue;
+    color: white;
+}
+#btne:hover {
+	background-color: #3f9039;
+    color: white;
+    
+}
+#btne:active {
+	background-color: #343611;
 }
